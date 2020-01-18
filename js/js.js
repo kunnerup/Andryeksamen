@@ -124,13 +124,13 @@ function showDivs(n) {
 
 //---------------------HER STARTER BACK TO ToP BOTTON.--------------------
 
-//få knappen frem ved scroll
+//få knappen frem ved scroll (starter funktioner)
 window.onscroll = function() {scrollFunction()};
 
 //Funktionen gør at når der scrolles længere ned en 20 px skal knappen vises som block
 //slettes igen, hvis man kommer retur til toppen (under 20)
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     backtotop.style.display = "block";
   } else {
     backtotop.style.display = "none";
