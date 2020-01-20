@@ -1158,12 +1158,12 @@ font-size: 30px;
 
   #downabit {
     padding-top: 50px;
+    padding-left: 0;
     text-align: left;
-    width: 60%;
+    width: 100%;
     margin: auto;
     color: #1989b2;
     display: block;
-    padding-left: 17px;
   }
 
   .uber2 {
