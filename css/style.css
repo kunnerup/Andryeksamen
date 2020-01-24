@@ -246,7 +246,7 @@ footer h3 {
   text-align: left;
 }
 
-footer h3:before {
+footer h3:after {
   content: "";
   position: absolute;
   width: 15px;
@@ -945,6 +945,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 padding-bottom: 50px;
+margin-top: 55px;
 }
 
 #border1, #border2 {
@@ -1071,7 +1072,7 @@ color: #1989B2;
 #infoboks {
   display: block;
   width: 400px;
-  height: 300px;
+  height: 370px;
   background-color: white;
   box-shadow: 0 5px 10px #1c1f1d;
   border-radius: 10px;
